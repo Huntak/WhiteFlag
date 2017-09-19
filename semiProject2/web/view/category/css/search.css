@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+section {
+	margin-top: 3%;
+}
+
+#searchDiv {
+	/* border: 1px solid red; */
+	margin: auto;
+	width: 1350px;
+}
+
+#searchDiv #label1 {
+	margin-left: 3%;
+}
+
+#searchDiv section {
+	/* border : 1px solid red; */
+	margin: auto;
+	width: 38%;
+	height: 180px;
+	font-size: 0.9em;
+}
+
+#searchDiv table td {
+	
+}
+
+#searchDiv table #td1 {
+	width: 100px;
+}
+
+#searchDiv table #td2 {
+	width: 400px;
+}
+
+#searchDiv table select {
+	width: 100%;
+	height: 120%;
+}
+
+#searchDiv table #searchCondition {
+	width: 99%;
+	height: 100%;
+}
+
+#searchDiv table #hotSearch {
+	font-size: 0.7em;
+}
+
+#searchDiv table #searchPrice {
+	width: 47.6%;
+	height: 100%;
+}
+
+#searchDiv button {
+	display: block;
+	width: 30%;
+	height: 25px;
+	margin: auto;
+	border: none;
+	background: none;
+	cursor : pointer;
+}
+
+#searchDiv button:hover {
+	border: 1px solid black;
+}
+
+#searchDiv #searchResult {
+	/* border: 1px solid red; */
+	margin-left: 3%;
+	color : grey;
+	font-size : 0.9em;
+	width : 94%;
+	height : 30px;
+	border-bottom: 1px solid lightgray;
+}
+
+#searchDiv #searchResult a {
+	color : grey;
+	position : relative;
+	left : 57%;
+}
+
+#searchDiv #searchResult input {
+	cursor : pointer;
+}
+
+#searchDiv #searchResult a:hover {
+	opacity : 0.7;
+}
+
+#productImgDiv {
+	/* border: 1px solid red; */
+	margin: auto;
+	width: 1350px;
+	height: auto;
+}
+
+#productImgDiv table {
+	margin : auto;
+	border-spacing: 20px;
+}
+
+#productImgDiv table td {
+	/* border: 1px solid red; */
+}
+
+#productImgDiv .image {
+	position : relative;
+	float : left;
+}
+
+#productImgDiv .image .text {
+	font-size: .8em;
+	text-align: center;
+	position:absolute;
+	top:40%;
+	left:35%;
+	visibility: hidden;
+}
+
+#productImgDiv .image .textNo {
+	font-size: .8em;
+	text-align: center;
+	position:absolute;
+	top:40%;
+	left:43%;
+	visibility: hidden;
+}

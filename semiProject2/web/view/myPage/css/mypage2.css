@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+#div_welcome{
+	margin-top : 5%;
+	border : 1px solid gray;
+	width : 60%;
+	height : 80px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 6%;
+	line-height : 80px;
+	
+}
+#section_link{
+	width : 1400px;
+	height : 80px;
+	margin-left : auto;
+	margin-right : auto;
+	
+}	
+#div_link{
+	
+	width : 66%;
+	height : 430px;
+	margin-left : auto;
+	margin-right : auto;
+
+}
+#div_orderlist{
+	width : 1200px;
+	border-top : 1px solid black;
+	margin-left : auto;
+	margin-right : auto;
+	
+}
+#tr_orderlist{
+	height : 30px;
+	border-bottom : solid 1px black;
+}
+.li_link{		
+	float : left;
+	border-radius : 3px;
+	border : 1px solid gray;
+	width : 150px;
+	height : 90px;
+	list-style:none;
+	margin : 20px;
+	color : gray;
+	font-family : 맑은 고딕;
+	font-size : 11pt;
+	vertical-align : center;
+	padding-top : 50px;
+}
+.li_link:hover{
+	border-color : black;
+	color : black;
+	font-weight : bold;
+	font-size : 12pt;	
+}
+
+#div_point{
+	width : 1000px;
+	height : 200px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 3%;
+	margin-bottom : 11%;
+}
+table{
+	border-collapse : collapse;
+	width : 1000px;
+	margin-left : auto;
+	margin-right : auto;
+	color : gray;
+	
+}
+td{
+	border-bottom : 1px solid gray;
+}
+.td2{
+	width : 77px;
+}
+a:visited{
+	color : black;
+}
+a{
+	text-decoration:none;
+}
+input{
+	color : gray;
+	background : white;
+}
+input:hover{
+	color : black;
+	border-color : black;
+}
+#tag{
+	margin-top: 3%;
+    margin-left: 10%;
+}
+
+    
+

@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+
+#center{  overflow:auto;}
+
+form{	 margin-left : 360px;	margin-top: 100px;  padding: 0px; width:740px; height: 800px; }  
+	
+table{	border-collapse : collapse;		width : 98%; 		
+	border-bottom : solid 1px lightgray;	border-top : solid 1px lightgray;  		}
+	
+td{	height : 5px;	border-top : solid 1px gray;	border-color : lightgray;
+	font-size : 10pt;	padding : 10px;		} 
+	
+.item{	text-align : center;	border-right: solid 1px gray;
+	background :  #f9f9f9;	border-color : lightgray;	height: 30px;	}
+
+.forEnroll{	width : 100px;	 height : 30px;		margin-left : auto;	  margin-right : auto;	 margin-top : 10px;	}
+
+#birth{ width:100px;}
+
+#hp1{ width: 60px;}
+
+#inforCheck{  color: red; }
+
+#enrollButton{ background-Color:black;   font:12px 굴림;      font-weight:bold;   color:white;  width:160px;   height:30px;   border:none; 
+				 
+}
+
+#cancelButton{  background-Color:white;    font:12px 굴림;     font-weight:bold;    color:black;   width:160px;height:30px; border: solid 1px; 	}
+
+.impossibleEdit{ color:red;}
+
+.surfaceEnrollbutton{ text-align:center;  width: 718px;    }

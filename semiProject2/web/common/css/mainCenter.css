@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+  
+#topmenu html, body {  padding :0px; margin-left :0px; margin-top:0px;   background-color: white;  border: none; }  
+  
+#center{  text-align:center;     }
+
+.mainpicture{  width :1298px;  height:600px;    }
+
+#forChangeLeft{ left : 11%; top : 300px; position : fixed; opacity: 0.2; width:80px; height:80px; }
+  
+#forChangeRight{ Right : 10%; top : 300px; position : fixed; opacity: 0.2; width:80px; height:80px; }

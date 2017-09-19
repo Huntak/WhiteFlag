@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+#ccenter{
+    width: 60%;
+    height: 850px;
+     margin-left:auto; margin-right:auto;
+}
+
+#divReview, #divQandA {   width:1000px; height: 40%; margin-left:auto; margin-right:auto; overflow:auto; }
+
+table{     border: 1px solid lightgray; border-spacing: 0;    }
+
+
+
+ th,td{ width:80px;  border-top: 1px solid lightgray; border-bottom: 1px solid lightgray; height:9px;}
+ 
+ 
+ 
+ tr { height:9px; }
+ 
+ .dateText { width: 120px;  }
+ .tdcontent {  width: 400px;    }
+ .titleText {  width: 140px;   }
+ .tdYn{ width: 40px;  }
+ a{
+ text-decoration : none;
+ }
+ 
+ #div_welcome{
+	margin-top : 5%;
+	border : 1px solid gray;
+	width : 50%;
+	height : 80px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 6%;
+	line-height : 80px;
+}

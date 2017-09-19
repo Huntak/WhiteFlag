@@ -1,0 +1,63 @@
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+
+
+#contents{
+	position:relative;
+	top: 150px;
+	left: 200px;
+	width: 800px;
+	height: 700px;
+}
+#contents{	border-collapse : collapse;		width : 70%; 		
+	border-bottom : solid 1px lightgray;	border-top : solid 1px lightgray;  		}
+#contents tr{
+	border-bottom: 1px solid lightgray;
+}
+
+#contents tr td{
+	width: 100px;	
+	
+	border-top : solid 1px lightgray;
+}
+
+
+#contents td.menu{
+	width: 50px;
+	background :  #f9f9f9;
+	text-align: center;
+	color: black;	
+}
+#contents td.item2{
+	padding: 20px;
+}
+
+input.item{	
+	border: gray solid 1px;
+}
+
+#submit{
+	position: relative;
+	width: 120px;
+	height: 30px;
+	top: 165px;
+	left: 590px;
+}
+ div#provider{
+    	width:200px;
+    	height:200px;
+    	background: #edeeef;
+    }
+
+#title{
+	position: relative;
+	top: 100px;
+	margin-left: 50px;
+} 
+
+#aaa{
+	height: 100px;
+}

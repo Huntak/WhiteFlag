@@ -1,0 +1,54 @@
+div{
+	width : 900px;
+	margin-right : auto;
+	margin-left : auto;
+}
+td{
+	border : solid 1px lightgray;
+}
+table{
+	border-collapse : collapse;
+}
+.td1{
+	height : 40px;
+	width : 100px;
+	text-align : center;
+	background : #f6f6f6;
+	font-size : 8pt;
+	align : left;
+}
+select{
+	margin-left : 10px;
+	width : 350px;
+}
+input{
+	margin-left : 10px;
+}
+#agree{
+	border : 1px solid #f6f6f6;
+	width : 500px;	
+	text-align : left;
+	margin-left : 10px;
+	font-size : 10pt;
+}
+.button{
+	margin-top : 20px;
+	position : relative;
+	left : 900px;
+	border : 1px solid black;
+	width : 60px;
+	height : 30px;
+	background : white;
+		
+}
+#list_button{
+	border : 1px solid black;
+	width : 60px;
+	height : 30px;
+	background : white;
+}
+
+#noticewr{
+	position: relative;
+	top: 300px;
+}

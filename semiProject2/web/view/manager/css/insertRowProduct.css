@@ -1,0 +1,53 @@
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+#title{
+	margin: 10px;
+}
+
+#contents{
+	position:relative;
+	top: 10px;
+	left: 10px;
+	width: 400px;
+	height: 300px;
+}
+#contents{	border-collapse : collapse;		
+	border-bottom : solid 1px lightgray;	border-top : solid 1px lightgray;  		}
+#contents tr{
+	border-bottom: 1px solid lightgray;
+}
+
+#contents tr td{
+	width: 90px;	
+	
+	border-top : solid 1px lightgray;
+}
+
+
+#contents td.menu{
+	width: 50px;
+	background :  #f9f9f9;
+	text-align: center;
+	color: black;	
+}
+#contents td.item2{
+	padding: 10px;
+}
+
+input.item{	
+	border: gray solid 1px;
+}
+
+ #submit{
+	
+	width: 120px;
+	height: 30px;
+	margin-top: 20px;
+	margin-left: 150px;
+} 
+
+
+    

@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+#title{
+	display: block;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+#title_div{
+	width:50%;
+	height : 100px;
+	margin-top : 5%;
+	margin-left : auto;
+	margin-right : auto;
+	border : 1px solid gray;
+	text-align : center;
+	line-height : 100px;
+	
+}
+#orderlist_div{
+	
+	width:1000px;
+	margin-top : 3%;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 6%;
+}
+#orderlist_table{
+	
+	border-collapse:collapse;
+	text-align : center;
+	width:1000px;
+	margin-left : auto;
+	margin-right : auto;
+	border-color : gray;
+	border-left : 1px solid gray;
+	border-right : 1px solid gray;
+	font-size : 12pt;	
+}
+#orderlist_table td{
+	border-top : 1px solid gray;
+	border-bottom : 1px solid gray;
+	color : gray;
+	font-size : 11pt;
+}
+#orderlist_table th{
+	border-top : 1px solid gray;
+	background : #f6f6f6;
+	color : #5D5D5D;
+}
+a{
+	text-decoration : none;
+	color : black;
+}
+input{
+	border : 1px solid gray;
+	color : black;
+	background : white;
+}
+input:hover{
+	border-color : black;
+	font-weight : bold;
+		
+}

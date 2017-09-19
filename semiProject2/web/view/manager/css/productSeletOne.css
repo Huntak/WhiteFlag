@@ -1,0 +1,68 @@
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+#contents{
+		width: 1520px;
+		height: 400px;
+		border: 1px solid lightgray;
+		overflow: auto;
+	}
+	
+	#search{
+		dispaly: inline;		
+		width: 1500px;
+		height: 30px;		
+		margin: 10px;
+	}
+	section{
+		margin-top: 100px;
+		margin-left: 100px;
+	}
+	#btnSea{
+		margin-left: 10px;
+	}
+	table{
+		width: 1500px;
+		text-align: center;
+		margin: auto;
+	}
+	table tr th{
+	border: 1px solid lightgray;
+	}
+
+tr.tr1{ 
+		
+		background: black;
+	color: white;
+		
+	}  
+	
+
+
+#btnchange{
+	position: relative;
+	left: 1420px;
+	margin-top: 10px;
+	width:100px;	
+}
+
+#change{
+	width: 100px;
+	height: 30px;
+}
+
+fieldset{
+	width:1520px;
+	border: 1px solid lightgray;
+}
+
+ td.member_value{
+ text-align: center;
+ }
+ 
+ #title{
+ 	margin-top: 50px;
+ 	margin-left: 50px;
+ }

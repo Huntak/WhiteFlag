@@ -1,0 +1,53 @@
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+
+
+#contents{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 600px;
+	height: 500px;
+}
+
+#contents tr{
+	border-bottom: 1px solid lightgray;
+}
+
+#contents tr td{
+	width: 100px;	
+	
+	border-top : solid 1px lightgray;
+}
+
+
+#contents td.menu{
+	width: 50px;
+	background :  #f9f9f9;
+	text-align: center;
+	color: black;	
+}
+#contents td.item2{
+	padding: 20px;
+}
+
+input.item{	
+	border: gray solid 1px;
+}
+
+#submit{
+	
+	width: 120px;
+	height: 30px;
+	margin-left: 250px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+#title{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+    

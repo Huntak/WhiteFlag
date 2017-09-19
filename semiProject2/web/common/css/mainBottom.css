@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+#bottom {  padding :0px; margin-left :0px; margin-top:0px;   background-color: white; }
+
+#bottom {  border-top : solid 1px lightgray; } 
+
+#bottom{  font-size : 0.7em;  }
+
+#bottom ul li { list-style:none; float: left;}
+
+#bottom .bottomli{ float: left; margin-left:100px; style:none; } 
+
+#bottom .bottomli2{ float: left; margin-left: 300px;   }

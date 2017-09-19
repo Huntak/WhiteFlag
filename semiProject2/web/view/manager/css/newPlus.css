@@ -1,0 +1,83 @@
+html, body {
+   padding : 0px;
+   margin : 0px;
+}
+
+ 
+#contents{
+      width: 1470px;
+    
+      border: 1px solid lightgray;
+      overflow: auto;
+      margin-left: 30px;
+   }
+   
+   #search{
+      dispaly: inline;      
+      width: 1440px;
+      height: 30px;      
+      margin-left: 10px;
+   }
+
+   #btnSea{
+      margin-left: 10px;
+   }
+   table{
+      width: 1450px;
+       
+      margin: auto;
+   }
+   
+.tr1{
+   background: black;
+   color: white;
+}
+
+table tr th{ 
+      border: 1px solid lightgray;
+      
+      
+   }  
+   
+tr,td {height: 40px;}
+    
+a{ style : none;  text-decoration: none;    }
+
+li{ list-style : none; } 
+
+#btnchange{
+   position: relative;
+   left: 1420px;
+   margin-top: 10px;
+   width:100px;   
+}
+
+#change{
+   width: 100px;
+   height: 30px;
+}
+
+fieldset{
+   width:1460px;
+   border: 1px solid lightgray;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-left: 30px;
+}
+fieldset:child {
+   margin: 10px;
+}
+
+.subtitle{
+   margin: 50px;
+}
+
+#title{
+   margin-top: 50px;
+   margin-left: 50px;
+}
+input{
+   text-align:center;
+}
+
+#storebtnDiv{ width :1460px; height:80px; text-align:right;margin-right:50px; margin-top:20px;}

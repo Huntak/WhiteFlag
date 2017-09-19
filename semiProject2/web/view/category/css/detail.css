@@ -1,0 +1,406 @@
+@CHARSET "UTF-8";
+
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+section {
+	margin-top: 3%;
+}
+
+section a {
+	color: black;
+	text-decoration: none;
+	margin:auto;
+}
+
+section a:visited {
+	color: black;
+	margin: 0;
+	padding: 0;
+	width: 80%;
+}
+
+#purchaseDiv {
+	/* border: 1px solid red; */
+	width: 1350px;
+	margin: auto;
+	height : auto;
+}
+
+#purchaseDiv table {
+	margin: auto;
+	/* verticla-align : top; */
+	font-size : 12px;
+	letter-spacing : 1px;
+}
+
+#purchaseDiv #purchaseTable .tdOuter {
+	/* border : 1px solid red;  */
+	width: 550px;
+	margin : auto;
+}
+
+#purchaseDiv #purchaseTable{
+	height : 500px;
+}
+
+#purchaseDiv #purchaseTable #purchaseTableOption td{
+	/* border : 1px solid red; */
+	height : 30px;
+}
+
+#purchaseDiv #purchaseTableOption #td1 {
+	font-weight : bold;
+	font-size : 20px;
+}
+
+#purchaseDiv #purchaseTableOption #td2 {
+	width: 100px;
+}
+
+#purchaseDiv #purchaseTableOption #td3 {
+	width: 300px;
+}
+
+#purchaseDiv #purchaseTableOption #selectQuantity{
+	width: 10%;
+	height: 12px;
+}
+
+#purchaseDiv #purchaseTableOption select {
+	width: 45%;
+	height: 20px;
+	font-size : 11px;
+}
+
+#purchaseDiv #buyNowButton {
+	width: 90%;
+	height: 50px;
+	border: 2px solid #300000;
+	background: none;
+	font-weight : 800;
+	cursor : pointer;
+}
+
+#purchaseDiv #addToCartButton {
+	width: 90%;
+	height: 30px;
+	border: 1px solid grey;
+	background: none;
+	cursor : pointer;
+}
+
+#purchaseDiv #wishListButton {
+	width: 90%;
+	height: 30px;
+	border: 1px solid grey;
+	background: none;
+	cursor : pointer;
+}
+
+#purchaseDiv #buyNowButton:hover {
+	border: 2px solid black;
+	background: #FAF4C0;
+}
+
+#purchaseDiv #addToCartButton:hover, #purchaseDiv #wishListButton:hover {
+	border: 1px solid black;
+}
+
+#purchaseDiv #purchaseTable #purchaseTableEtc {
+	text-align : center;
+	margin-left: 31%;
+}
+
+#purchaseDiv #purchaseTable #purchaseTableEtc a:hover {
+	opacity: 0.6;
+}
+
+#productDetailDiv {
+	/* border: 1px solid red; */
+	margin: auto;
+	width: 1350px;
+	height: auto;
+	align:center;
+}
+
+#productDetailDiv img{
+	/* border: 1px solid red; */
+	align:center;
+}
+
+#productDetailDiv .label1 {
+	margin-left: 5%;
+	font-size : .8em;
+}
+
+#productDetailDiv .label2 {
+	font-size : .6em;
+	color : grey;
+}
+
+#productDetailDiv #review {
+	/* border : 1px solid red; */
+	width : 100%;
+	height : auto;
+}
+
+#productDetailDiv #review td{
+	/* border : 1px solid blue; */
+}
+
+#productDetailDiv #review #reviewTable {
+	/* border : 1px solid blue; */
+	font-size : .8em;
+	margin : auto;
+	width : 90%;
+	text-align : center;
+	border-spacing: 0px;
+}
+
+#productDetailDiv #review th{
+	color : grey;
+}
+
+#productDetailDiv #review td{
+	border-top : 1px solid lightgrey;
+	height : 20px;
+	/* border : 1px solid blue; */
+}
+
+#productDetailDiv #review .td2{
+	text-align : left;
+}
+
+#productDetailDiv #review .td2 a:hover{
+	opacity: 0.6;
+}
+
+#productDetailDiv #review #th1{
+	width : 10%;
+}
+
+#productDetailDiv #review #th2{
+	width : 70%;
+}
+
+#productDetailDiv #review #th3{
+	width : 10%;
+}
+
+#productDetailDiv #review #th4{
+	width : 10%;
+}
+
+#productDetailDiv #review .replyNum {
+	color : #6799FF;
+}
+
+#productDetailDiv #review .tdSubject:hover{
+	opacity: 0.6;
+}
+
+/* #productDetailDiv #review .iconFile:hover::before {
+	content: url("../images/1.jpg");
+	white-space: pre-line;
+	position: relative;
+	bottom: 3%;
+	left: 3%;
+} */
+
+/* #productImgDiv a:hover::after {
+	content: "Warm Chu MTM(7col) \A 웜 츄 맨투맨 \A PRICE 38,000won";
+	white-space: pre-line;
+	font-size: .7em;
+	position: relative;
+	top: -150px;
+	left: 35%;
+} */
+
+#productDetailDiv #review #buttonTd {
+	height : 40px;
+}
+
+#productDetailDiv #review button{
+	border : 1px solid lightgray;
+	background : none;
+	height : 25px;
+	font-size : .8em;
+}
+
+#productDetailDiv #review button:hover{
+	border-color : black;
+}
+
+#productDetailDiv #review #lastTd {
+	border : none;
+}
+
+#productDetailDiv #review #lastTd #pageTableR td {
+	height : 16px;
+	width : 16px;
+	text-align : center;
+	border : none;
+}
+
+#productDetailDiv #review #lastTd #pageTableR a {
+	height : 16px;
+	width : 16px;
+	cursor : pointer;
+}
+
+/* #productDetailDiv #review #lastTd label {
+	position : relative;
+	top : -65%;
+} */
+
+#productDetailDiv #review #lastTd a:hover {
+	text-decoration : underline;
+}
+
+#productDetailDiv #review #lastTd #pageTableR img {
+	display:block;
+	opacity : 0.5;
+}
+#productDetailDiv #review #lastTd #pageTableR img:hover {
+	opacity : 1;
+}
+
+
+
+#productDetailDiv #qna {
+	/* border : 1px solid red; */
+	width : 100%;
+	height : auto;
+}
+
+#productDetailDiv #qna td{
+	/* border : 1px solid blue; */
+	height : 20px;
+}
+
+#productDetailDiv #qna #qnaTable {
+	/* border : 1px solid blue; */
+	font-size : .8em;
+	margin : auto;
+	width : 90%;
+	text-align : center;
+	border-spacing: 0px;
+}
+
+#productDetailDiv #qna th{
+	color : grey;
+}
+
+#productDetailDiv #qna td{
+	border-top : 1px solid lightgrey;
+}
+
+#productDetailDiv #qna .td3{
+	text-align : left;
+}
+
+#productDetailDiv #qna .td3 a:hover{
+	opacity: 0.6;
+}
+
+#productDetailDiv #qna #th1{
+	width : 10%;
+}
+
+#productDetailDiv #qna #th2{
+	width : 10%;
+}
+
+#productDetailDiv #qna #th3{
+	width : 50%;
+}
+
+#productDetailDiv #qna #th4{
+	width : 10%;
+}
+
+#productDetailDiv #qna #th5{
+	width : 10%;
+}
+
+#productDetailDiv #qna #th6{
+	width : 10%;
+}
+
+#productDetailDiv #qna .tdSubject:hover{
+	opacity: 0.6;
+}
+
+#productDetailDiv #qna #buttonTd2 {
+	height : 40px;
+}
+
+#productDetailDiv #qna button{
+	border : 1px solid lightgray;
+	background : none;
+	height : 25px;
+	font-size : .8em;
+}
+
+#productDetailDiv #qna button:hover{
+	border-color : black;
+}
+
+#productDetailDiv #qna #lastTd2 {
+	border : none;
+}
+
+#productDetailDiv #qna #lastTd2 #pageTableQ td {
+	height : 16px;
+	width : 16px;
+	text-align : center;
+	border : none;
+}
+
+#productDetailDiv #qna #lastTd2 #pageTableQ a {
+	height : 16px;
+	width : 16px;
+	cursor : pointer;
+}
+
+/* #productDetailDiv #review #lastTd label {
+	position : relative;
+	top : -65%;
+} */
+
+#productDetailDiv #qna #lastTd2 a:hover {
+	text-decoration : underline;
+}
+
+#productDetailDiv #qna #lastTd2 #pageTableQ img {
+	display:block;
+	opacity : 0.5;
+}
+
+#productDetailDiv #qna #lastTd2 #pageTableQ img:hover {
+	opacity : 1;
+}
+
+
+#scrolltotop {
+	position: fixed;
+	bottom: 0px;
+	right: 0px
+}
+
+#scrolltotop span {
+	width: 50px;
+	height: 50px;
+	display: block;
+	opacity : 0.8;
+	margin: 0px 15px 10px 0;
+	border-radius: 3px;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out
+}

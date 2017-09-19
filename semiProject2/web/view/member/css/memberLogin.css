@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+html, body {  padding :0px; margin-left :0px; margin-top:0px;   background-color: white;  border: none; }  
+  
+#center{  text-align:center;     }
+    
+.submitButton{   width : 100px;    height : 30px;      margin-left : auto;     margin-right : auto;    margin-top : 10px;   }
+
+#loginButton{ background-Color:black;   font:12px 굴림;      font-weight:bold;   color:white;  width:160px;   height:30px;   border:none; }
+
+#goEnrollButton{  background-Color:white;    font:12px 굴림;     font-weight:bold;    color:black;   width:160px;height:30px; border: solid 1px;    }
+
+.loginTextbox{  padding:5px;  border : 1px solid #dfdfdf;  }
+
+form{  text-align:center;   font:10px bold 굴림;  }
+
+form a:hover {  color:red;    }
+
+a{ style : none;  text-decoration: none;  border: none;  color:black;   }
+
+#loginFailLabel {  color:red;}

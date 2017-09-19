@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+#cart_label{
+	display: block;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+#div_welcome{
+	margin-top : 5%;
+	border : 1px solid gray;
+	width : 60%;
+	height : 80px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 20px;
+	line-height : 80px;
+}
+#div_welcome2{
+	margin-top : 10%;
+	border : 1px solid gray;
+	width : 60%;
+	height : 80px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 30%;
+	line-height : 80px;
+}
+#image{
+	padding : 10px;
+	}
+#cartinfo_section{
+	width : 1200px;
+		
+	margin-top : 50px;
+	margin-right : auto;
+	margin-left : auto;	
+	
+}
+#cartinfo_table{
+	width : 1200px;
+	border-collapse: collapse; 
+	border-top : 1px solid gray;
+	margin-right : auto;
+	margin-left : auto;
+	font-size : 10pt;
+	}
+#cartinfo_table a {
+	color : black;
+	text-decoration: none;
+}
+#cartinfo_table a:hover {
+	opacity : 0.7;
+}
+#cartinfo_table td {
+	border-bottom : 1px solid gray;
+	text-align : center;
+}
+#cartinfo_table th {
+	border-bottom : 1px solid gray;
+	background : #f6f6f6;
+	color : gray;
+	height : 40px;
+}
+#cartInfoTable_last_td{
+	 height : 50px;
+	 text-align : right;
+	 background : #F6F6F6;
+	 font-weight : bold;
+}
+#order_button{
+	width : 60%;
+	height : 20%;
+	background : black;
+	color : white;
+	border-radius : 5px;
+	border : 3px solid black;
+}
+#delete_button{
+	width : 60%;
+	height : 20%;
+	background : gray;
+	color : white;
+	border-radius : 5px;
+	border : 3px solid gray;
+}
+
+#pay_section{
+	width : 1200px;
+	height : 130px;
+	margin-right : auto;
+	margin-left : auto;
+	margin-top : 50px;
+}
+#pay_table{
+	width : 1200px;
+	height : 130px;
+	margin-right : auto;
+	margin-left : auto;
+	border : 1px solid black;
+	border-collapse: collapse; 
+	font-size : 10pt;
+	
+}
+#pay_table th{
+	background : #f6f6f6;
+	border-bottom : 1px solid gray;
+	color : gray;
+	height : 40px;
+	font-size : 10pt;
+}
+#total_delivery{
+	border-left : 1px solid gray;
+	border-right : 1px solid gray	;
+}
+#delivery{
+	border-left : 1px solid gray;
+	border-right : 1px solid gray	;
+}
+
+#order_buttons_section{
+	width : 1000px;
+	margin-right : auto;
+	margin-left : auto;
+	margin-top : 1%;
+	margin-bottom : 8%;
+}
+#order_buttons_table{
+	width : 1000px;
+	height : 100px;
+	margin-right : auto;
+	margin-left : auto;
+	border-collapse: collapse; 
+
+}
+#order_buttons_table td{
+	margin : 0px;
+	
+	
+}
+.order_all_button{
+	width : 15%;
+	height : 40%;
+	background : white;
+	color : gray;
+	border : 1px solid #a6a6a6;
+	font-weight : bold;
+}
+.order_all_button:hover{
+	border-color : black;
+	color : black;;
+}
+#change_quantity_button{
+	margin-top : 10px;
+	background : black;
+	border : 1px solid black;
+	color : white;
+	border-radius : 3px;
+}
+a{
+	text-decoration : none;
+}
+#order_buttons_section2{
+	margin-bottom : 25%;
+}
+
+

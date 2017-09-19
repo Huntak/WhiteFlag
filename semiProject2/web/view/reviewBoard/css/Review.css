@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+
+#td{
+	margin-left: 30px;
+	position:relative;
+	top:200px;
+	width: 1300px;
+	height: 300px;
+}
+#mainQ{
+	position:relative;
+	top:140px;
+	margin-left: 30px;
+	color: lightgray;
+}
+
+.subject{
+	width: 700px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+.name{
+	width: 100px;
+	border-left: 0px;
+	border-right:0px;
+}
+.date{
+	width: 150px;
+	border-left: 0px;
+}
+.no{
+	height: 25px;
+	border-right:0px;
+	border-left:0px;
+	width:50px;
+}
+.item{
+	width:100px;
+	border-left: 0px;
+	border-right:0px;
+}
+table{
+/* 	border-spacing: 0px;
+	border-collapse : collapse; */
+	width: 100%;
+	border-north: 0px;
+	border-right: 0px;
+	
+}
+#no{
+	
+	border-top: 0px;
+}
+#item{
+	border-top: 0px;
+}
+#subject{
+	border-top: 0px;
+	text-align: center;
+}
+#name{
+	border-top: 0px;
+}
+#date{
+	border-top: 0px;
+}
+#tr22{
+	color:#8C8C8C;
+	font-size:12px;
+}
+.no{
+	font-size:12px;
+}
+.subject{
+	font-size:12px;
+	text-align:left;
+}
+.name{
+	font-size:12px;	
+}
+.date{
+	font-size:12px;	
+}
+#pa{
+	position:relative;
+	bottom:20px;
+}
+#qnaPaging a{
+	margin-left: 10px;
+}
+#left{
+	float: left;
+}
+#right{
+	float:right;
+}

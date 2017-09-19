@@ -1,0 +1,454 @@
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+div#title{
+    top: 100px;
+    color: black;
+    font-size: 10pt;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: -60px;
+}
+div#rwtitle{
+    margin-left: 150px;
+    color: black;
+    font-size: 10pt;
+    margin-top: 50px;
+}
+div#qwtitle{
+    margin-left: 150px;
+    color: black;
+    font-size: 10pt;
+    margin-top: 50px;
+}
+#content{
+    margin-top: 20px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: 200px;
+}
+#qqcontent{
+   margin-top: 20px;
+    width: 1000px;
+    margin-left: 165px;
+}
+#rupcontent{
+     margin-top: 35px;
+    width: 996px;
+     /* margin-right: auto;  */
+    margin-left: 150px;
+}
+#qucontent{
+	margin-top: 20px;
+    width: 998px;
+    margin-left: 165px;
+}
+td{
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	font-size: 10pt;
+}
+table{
+	border-collapse : collapse;
+	width: 1100px;
+	top:100px;
+}
+.td1{
+	height : 30px;
+	width :10px;
+	text-align : center;
+	background : #f6f6f6;
+	font-size : 9pt;
+}
+.ntd1{
+	height : 30px;
+	width :145px;
+	text-align : center;
+	background : #f6f6f6;
+	font-size : 9pt;
+}
+.td11{
+	height : 30px;
+	width :120px;
+	text-align : center;
+	background : #f6f6f6;
+	font-size : 9pt;
+	align : left;
+}
+.qtd1{
+	height : 30px;
+	width :110px;
+	text-align : center;
+	background : #f6f6f6;
+	font-size : 9pt;
+}
+ 
+#list{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    font-size: 12px;
+    font-family: georgiaz,NanumBarunGothic;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 4%;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tdcontent{
+	top:50px;
+	height: 200px;
+	border-bottom: 1px solid lightgray;
+	text-align:center;
+}
+#tdcontent #nimage{
+display:block; margin:auto;
+}
+	
+#qlist{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 9%;
+    height: 20px;
+    text-align: center;
+    text-decoration:none;
+    font-weight: bold;
+}
+#delete input{
+	padding: 5px 10px;
+    font-size: 10px;
+    color: #333;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    font-weight : bold;	
+}
+
+.qdb{
+	padding: 5px 10px;
+    font-size: 12px;
+    color: #333;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    text-decoration:none;
+    font-weight: bold;
+}
+#modify{
+	padding: 5px 10px;
+    font-size: 12px;
+    color: #333;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    text-decoration:none;
+    font-weight: bold;
+}
+.cancelbutton{
+	padding: 5px 10px;
+    font-size: 12px;
+    color: black;
+    line-height: 10px;
+    border: 1px solid black;
+    text-decoration:none;
+    font-weight: bold;
+    height: 30px;
+    background: none;
+}
+.okbutton{
+    padding: 5px 10px;
+    font-size: 12px;
+    color: black;
+    line-height: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    height: 30px;
+   	background: none;
+}
+#bok{
+	width:7%; 
+	height:27px;
+	border:none;
+	background:black;
+	color:white;
+	font-style:italic;
+	font-weight:bold;
+	cursor : pointer;
+	margin-right:10px;
+}
+#bcancel{
+	width:7%; 
+	height:27px; 
+	border:1px solid black;
+	background:white;
+	font-style:italic;
+	font-weight:bold; 
+	cursor : pointer;
+	margin-right: 269px;
+}
+#rok{
+	 width:7%; 
+	 height:27px; 
+	 border:none;
+	 background:black;
+	 color:white;
+	 font-style:italic;
+	 font-weight:bold; 
+	 cursor : pointer;
+}
+#rcancel{
+	width:7%; 
+	height:27px; 
+	border:1px solid black;
+	background:white;
+	font-style:italic;
+	font-weight:bold; 
+	cursor : pointer;"
+}
+#rlist{
+	margin-right: 80%;
+}
+#qqlist{
+    width: 7%;
+    height: 27px;
+    border: 1px solid black;
+    background: white;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 685px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#rtitle{
+    top: 100px;
+    color: black;
+    font-size: 10pt;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+#rlist{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    font-size: 15px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 3%;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight : bold;	
+}
+#ntitle{
+    top: 100px;
+    color: black;
+    font-size: 10pt;
+    margin-left: 100px;
+    margin-top: 50px;
+	margin-bottom: 40px;
+}
+#nlist{
+	display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    font-size: 15px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 5%;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nlist:hover{
+	color:gray;
+}
+#rulist{
+	display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 10%;
+    height: 23px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#nlist{
+	display: block;
+    margin-top: 5px;
+    margin-right: 300px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 6%;
+    height: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom:40px
+}
+#qsub{
+	text-align:left;
+}
+#qsub1{
+	text-decoration:none;
+}
+#ndelete{
+  	display: block;
+    margin-top: 5px;
+    margin-right: 114px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 15%;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+#rdelete{
+  	display: block;    
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 15%;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+#nmodify{
+    display: block;
+    margin-top: -25px;
+    margin-right: 35px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 18%;
+    height: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px
+}
+#nmodify:hover{
+	color:gray;
+}
+#ndelete:hover{
+	color:gray;
+}
+#rrok{
+    width:  12%;
+    height: 28px;
+    border: none;
+    background: black;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+#reid{
+	font-size: 11pt;
+    color: gray;
+}
+#redate{
+	font-size: 11pt;
+    color: lightgray;
+}
+.recontent{
+	font-size: 12pt;
+    color: black;
+	width: 915px;
+}
+#qecontent{
+	font-size: 12pt;
+    color: black;
+    width: 915px;
+}
+.okbutton, .cancelbutton{
+	width:68px;
+}
+#piname{
+	color:black;
+	text-decoration:none;
+}
+#piname:hover{
+	text-decoration:underline;
+}
+#item{
+	background:none;
+	border:1px solid gray;
+}
+#qitem{
+	background:none;
+	border:1px solid gray;
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+.admin{
+	height : 50px;
+	width :150px;
+	text-align : center;
+	background : #f6f6f6;
+	font-size : 9pt;
+	align : left;
+}
+div#title{
+    margin-left: 165px;
+	color: black;
+	font-size:10pt;
+	margin-bottom:10px;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#rdelete{
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #333;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    width: 35px
+}
+      
+td{
+   border-top: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+   font-size: 9pt;
+}
+.admin{
+   height : 50px;
+   width :150px;
+   text-align : center;
+   background : #f6f6f6;
+   font-size : 10pt;
+}
+.com{
+    border: none;
+    backgroud: #f6f6f6;
+    font-size: 10pt;
+    width: 370px;
+    height: 40px;
+}
+#ok{
+    margin-right: 35px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #333;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    margin-right: 300px;
+}

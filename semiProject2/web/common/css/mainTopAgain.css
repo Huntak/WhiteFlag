@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+#topmenu {  padding :0; margin-left :0; margin-top:0;   background-color: white; border: none; }
+
+header  {  border-bottom : solid 1px lightgray; } 
+
+
+#topmenu div, #center div{ height:48px;  float : left;  text-align:center;  }
+
+#topmenu a, #center a{ style : none;  text-decoration: none;  border: none;  	}
+
+#topmenu li, #center li{ list-style : none;  }        
+
+#topmenu img, #center img{ style : none; }  
+
+#div1{ text-align:right; width:230px; }
+
+#div5 { width:200px; }
+
+#div5 span { cursor: pointer; }
+
+/* #div7 ul{ margin-right:20px; } */
+
+
+
+#logoimg{	width: 110px; height:42px; border:none;  margin-top:3px; } 
+
+#searchText{  position : relative; top : 36%; width : 100px; border-top : none; border-left : none; border-right : none; border-bottom  : solid 0.5px;
+height:22px;    }
+
+#btnSearch{ position : relative; top : 48%; width : 20px; height :20px; border:none;}
+
+/* .group1{ width : 80px;   } */
+
+.group2{ width : 80px; margin-top:-8px; height:40px; }
+
+/* .submenuA{margin-left:-50px;  } */
+
+/* #topmenu .group2 span { margin-top:-15px; } */
+
+#topmenu a{ font-size: 13px;  color : black;    }
+
+
+#topmenu ul li ul li {margin-top:10px;  padding: 0px;}
+#topmenu ul li ul li a { font-size: 10px; padding: 0px; }
+
+#topmenu ul li a{ font-size: 13px;  color : black;   } 
+
+#topmenu li ul a{ font-size:10px; margin-left:1px;  }
+
+.submenuUl {	position : relative; height:auto; padding:6px;  text-align:left;   
+border:solid 1px; width:80px; z-index:20; background-color: #ffffff;  display:none;	}
+
+#managerUl {	position : relative; height:auto; padding:6px;  text-align:left;   
+border:solid 1px; width:120px; z-index:20; background-color: #ffffff;  display:none;	}
+
+#topmenu ul {
+	position: relative;
+    left: -22%;
+	margin-top: 26%;
+}
+
+#topmenu li ul a:hover, #topmenu li ul li:hover a{ background: rgb(71,71,71); border:0px; color:#ffffff; text-decoration:none; }
+   
+#topmenu li:hover ul{ display:block; }
+
+

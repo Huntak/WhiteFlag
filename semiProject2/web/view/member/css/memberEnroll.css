@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+
+#center{ overflow:auto; }
+form{	
+	margin-left : 360px;	margin-top: 100px;  padding: 0px; width:740px; height: 1500px; }  
+	
+table{	border-collapse : collapse;		width : 98%; 		
+	border-bottom : solid 1px lightgray;	border-top : solid 1px lightgray;  		}
+	
+td{	height : 5px;	border-top : solid 1px gray;	border-color : lightgray;
+	font-size : 10pt;	padding : 10px;		} 
+	
+.item{	text-align : center;	border-right: solid 1px gray;
+	background :  #f9f9f9;	border-color : lightgray;	height: 30px;	}
+
+.forEnroll{	width : 100px;	 height : 30px;		margin-left : auto;	  margin-right : auto;	 margin-top : 10px;	}
+
+#birth{ width:100px;}
+
+#hp1{ width: 60px;}
+
+#inforCheck{  color: red; }
+
+#enrollButton{ background-Color:black;   font:12px 굴림;      font-weight:bold;   color:white;  width:160px;   height:30px;   border:none; }
+
+#cancelButton{  background-Color:white;    font:12px 굴림;     font-weight:bold;    color:black;   width:160px;height:30px; border: solid 1px; 	}
+
+#checkRepeatB,#postB { background-Color:black;   font:12px 굴림;      font-weight:bold;   color:white; border:none; padding:4px;  }
+
+.surfaceProvision{	background : #f4f4f4;	width:700px;	 height:400px;	 padding:20px;	font-size : 0.8em;   border-color:#f4f4f4;}
+
+.provision{	background : white; overflow:auto; width:658px; height:350px; padding:20px; font-size : 0.8em;	  border-color:#f4f4f4;}
+
+.surfaceEnrollbutton{ text-align:center;  width: 718px; }
+
+#confirmIdRepeat form{ position:absolute; left:400px; top:100px; z-index:999; width :400px; height:300px; background-color:white; border: solid 1px;}
+
+#confirmIdRepeattop{ 	background-color: black; color:white; height:22px; padding: 7px; font-size : 0.8em;}
+
+#exitB{ width:20px; height: 20px; margin-left :230px; padding:0px;  }
+
+#confirmButton{	 width:90px; height:20px;	}
+
+#confirmText{padding:3px 0px 0px 3px;}
+
+#confirmIdRepeatcenter{ padding:10px; font-size : 0.8em; height:190px;} 
+
+#confirmIdRepeatbottom{ height: 40px;}
+
+#afterCheck{ color: red;}
+

@@ -1,0 +1,196 @@
+@CHARSET "UTF-8";
+html, body {
+	padding : 0px;
+	margin : 0px;
+}
+
+#product_section{
+	width : 1400px;
+	margin-left : auto;
+	margin-right : auto;
+}
+#info_section{
+	width : 1400px;
+	margin-left : auto;
+	margin-right : auto;
+}
+#pay_section{
+	width : 1400px;
+	margin-left : auto;
+	margin-right : auto;
+	
+}
+
+#main_label{
+	position : relative;
+	top : 100px;
+	left : 135px;
+}
+#div_welcome{
+	margin-top : 150px;
+	border : 1px solid gray;
+	width : 1400px;
+	height : 80px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 20px;
+	line-height : 80px;
+	
+}
+table{
+	border-collapse : collapse;
+	text-align : center;
+	width : 1400px;
+	border-top : solid 1px lightgray;
+	border-bottom : solid 1px lightgray;
+	margin-bottom : 50px;
+}
+#product_table{
+	border-top : 1px solid lightgray;
+	border-bottom : 1px solid lightgray;
+	border-collapse : collapse;
+	width : 1400px;
+	height : 300px;
+}
+#product_tr1{
+	height : 40px;
+	font-size : 10pt;
+	background : #F6F6F6;
+}
+#product_tr2{
+	text-align : center;
+	font-size : 12pt;
+	border-top : 1px solid lightgray;
+	border-bottom : 1px solid lightgray;
+}
+#product_tr3{
+	font-size : 11pt;
+	
+}
+#delivery_label{
+	font-size : 10pt;
+	font-weight : bold;
+}
+#delivery_label2{
+	margin-bottom : 5px;
+	font-size : 10pt;
+	font-weight : bold;
+	
+}
+.delivery_table{
+	border: 1px solid lightgray;
+	border-collapse : collapse;
+	width : 1400px;
+	
+}
+.delivery_table td{
+	height : 40px;
+	border-bottom : 1px solid lightgray;
+	text-align : left;	
+	font-size : 10pt;	
+}
+.delivery_td{
+	background : #F6F6F6;
+	text-align : center;
+	font-size : 10pt;
+}
+.delivery_td{
+	width : 120px;
+	
+}
+#pay_label{
+	
+	font-size : 10pt;
+	font-weight : bold;
+}
+
+#pay1_tr1{
+	height : 40px;
+	background : #F6F6F6;
+	font-size : 11pt;
+		
+}
+#pay1_tr2{
+	border-top : solid 1px lightgray;
+	border-bottom : solid 1px #EAEAEA;
+	font-size : 16pt;
+	height : 120px;
+	color : #8C8C8C;
+}
+
+#pay1_tr3{
+	font-size : 10pt;
+	
+}
+#pay1_table{
+	text-align : center;
+}
+#dc_td{
+	border : none;
+	font-size : 20px;
+	text-align : center;
+	color : gray;
+}
+#totalpay{
+	border : none;
+	font-size : 20px;
+	text-align : center;
+	color : gray;
+}
+#pay2_tr1{
+	height : 40px;
+	border-bottom : #EAEAEA;
+}
+#pay_final_td{
+	 width :400px;
+	 background : white;	
+	
+}
+#final_pay_input{
+	border : 1px solid gray;
+	width : 170px;
+	height : 45px;
+	font-size : 14pt;
+	color : gray;
+	line-height : 45px;
+	font-weight : bold;
+	text-align : center;
+}
+#final_pay_button{
+	width : 170px;
+	height : 50px;
+	font-size : 14pt;
+	color : black;
+	border : 1px solid gray;
+	line-height : 50px;
+	font-weight : bold;
+	margin-bottom : 3px;
+	text-align : center;
+	background : white;
+}
+#final_pay_button:hover{
+	border-color : black
+}
+#label_pay{
+	font-size : 10pt;
+	font-weight : bold;
+}
+#label_pay2{
+	font-size : 10pt;
+	font-weight : bold;
+	text-align : right;
+}
+#asdas{
+	text-align : right;
+}
+a{
+	color : black;
+	text-decoration : none;
+}
+a:hover{
+	opacity : 0.7;
+}
+#mileage{
+	border : none;
+	text-align : center
+}
